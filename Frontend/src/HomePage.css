@@ -1,0 +1,15 @@
+.topnav {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.title {
+
+    display: flex;
+    flex-direction: column;
+    height: 200vh; /* Full viewport height */ 
+
+}
