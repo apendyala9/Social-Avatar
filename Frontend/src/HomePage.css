@@ -1,15 +1,68 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    margin: 0;
+    background-color: rgb(44, 36, 36);
+
+}
+
 .topnav {
 
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.topnav ul {
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 15;
+
+
+}
+
+.topnav ul :hover {
+
+    background-color: rgb(201, 81, 131);
+
 
 }
 
 .title {
 
-    display: flex;
-    flex-direction: column;
-    height: 200vh; /* Full viewport height */ 
+    font-size: 2rem;
+
 
 }
+
+.topnav a {
+
+    color: inherit;
+    text-decoration: none;
+
+
+}
+
+.titleAndNav{
+
+    display: flex;
+    margin: 0;
+    gap: 1rem;
+    justify-content: space-between;
+
+
+}
+
